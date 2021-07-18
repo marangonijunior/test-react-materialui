@@ -1,0 +1,59 @@
+keystore.jks
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+=======
+# dependencies
+/node_modules
+
+#Build
+/build
+
+
+#Package-lock
+package-lock.json
+
+#coverage
+/coverage
+
+#AWS
+/AWS
+
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# JetBrains config files #
+##########################
+.idea
+*.iml
+.factorypath
+rebel.xml
+
+# Eclipse config files #
+########################
+.project
+.classpath
+.settings
+
+# Maven build artifacts files #
+###############################
+target
+overlays
+out
+
+# Gradle build artifacts files #
+###############################
+.gradle
+build
+
+npm
