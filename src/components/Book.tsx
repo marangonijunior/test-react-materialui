@@ -77,6 +77,7 @@ function Book(item: any) {
     };
     const formIsValid: any = (fieldValues = values) => {
       const isValid =
+        fieldValues.name &&
         fieldValues.room &&
         fieldValues.schedule &&
         Object.values(errors).every((x) => x === "");

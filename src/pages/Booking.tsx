@@ -61,7 +61,7 @@ export default function Booking() {
           </Typography>
         </Toolbar>
       </AppBar>
-      {hotel ? (
+      {hotel.hotel ? (
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12} md={6}>
@@ -97,7 +97,9 @@ export default function Booking() {
           </Grid>
         </div>
       ) : (
-        <div>:( We are having problem to connect the server.</div>
+        <Typography component="h5">
+          :( We are having problem to connect the server.
+        </Typography>
       )}
     </div>
   );
